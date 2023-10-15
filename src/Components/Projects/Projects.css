@@ -13,6 +13,7 @@
   background: none;
   color: white;
   border: none;
+  cursor: pointer;
 }
 .projects_button:hover {
   color: #4ee1a0;
