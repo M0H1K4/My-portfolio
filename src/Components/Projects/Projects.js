@@ -7,11 +7,11 @@ export default function Projects() {
       <div className="projects_div__title">
         <h1 className="projects_h1">Projects</h1>
         <button className="projects_button">
-          CONTACT ME
+          CONTACT ME!
           <hr className="projects_hr" />
         </button>
       </div>
-      
+
     </div>
   );
 }
