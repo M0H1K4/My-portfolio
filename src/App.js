@@ -4,6 +4,8 @@ import Foto from './Components/Foto/Foto.js';
 import Info from './Components/Info/Info.js';
 import Skills from './Components/Skills/Skills.js';
 import Projects from './Components/Projects/Projects.js';
+import Built from  './Components/Built-Projects/Built'
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -13,6 +15,11 @@ function App() {
      <Info/>
      <Skills/>
      <Projects/>
+     <Built/>
+     <Built/>
+     <Built/>
+     <Built/>
+     <Footer/>
     </div>
   );
 }

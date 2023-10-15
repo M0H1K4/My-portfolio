@@ -1,0 +1,30 @@
+.built-image1 {
+  width: 345px;
+  height: 253px;
+}
+.skills_h4{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    margin-left: 10px;
+    margin-top: -20px ;
+}
+h2{
+    margin-left: -110px;
+}
+.buttons_div{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+}
+.built_button{
+    color: white;
+    background: none;
+    border: none;
+}
+.built_hr{
+    border-color: #4EE1A0;
+}
+.built_main_div{
+    margin-top: 30px;
+}
