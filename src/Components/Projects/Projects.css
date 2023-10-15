@@ -1,0 +1,23 @@
+.projects_div__title {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.projects_button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 2.286px;
+  background: none;
+  color: white;
+  border: none;
+}
+.projects_button:hover {
+  color: #4ee1a0;
+}
+.projects_hr {
+  border-color: #4ee1a0;
+  margin-top: 0px;
+}

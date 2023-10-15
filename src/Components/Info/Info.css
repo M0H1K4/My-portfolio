@@ -1,0 +1,35 @@
+.info_div {
+  width: 350px;
+}
+.info_h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.136px;
+}
+.info_p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.info_button:hover{
+  color: #4ee1a0;
+}
+
+.info_button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 2.286px;
+  background: none;
+  color: white;
+  border: none;
+}
+
+.contact_me__hr {
+  width: 120px;
+  border-color: var(--Green, #4ee1a0);
+}
