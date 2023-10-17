@@ -2,6 +2,7 @@
   width: 345px;
   height: 253px;
 }
+
 .skills_h4{
     display: flex;
     justify-content: left;
@@ -21,6 +22,10 @@ h2{
     color: white;
     background: none;
     border: none;
+    cursor: pointer;
+}
+.built_button:hover{
+    color: #4EE1A0;
 }
 .built_hr{
     border-color: #4EE1A0;

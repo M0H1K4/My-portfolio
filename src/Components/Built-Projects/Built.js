@@ -7,7 +7,7 @@ export default function Built(props) {
   /// create new component and inside new array with photos 
   return (
     <div className="built_main_div">
-      <img src={props.image} className="built-image" />
+      <img src={img1} className="built-image" />
 
       <h2>{props.title}</h2>
       <div className="skills_h4">
