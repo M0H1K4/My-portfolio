@@ -2,14 +2,13 @@ import React from "react";
 import img1 from "../../images/thumbnail-project-1-small.webp"
 import "./Built.css";
 
-export default function Built() {
+export default function Built(props) {
   return (
     <div className="built_main_div">
       <img src={img1} className="built-image1" />
-      <h2>DESIGN PORTFOLIO</h2>
+      <h2>{props.title}</h2>
       <div className="skills_h4">
-        <h4>HTML</h4>
-        <h4>CSS</h4>
+        <h4>{props.description}</h4>
       </div>
       <div className="buttons_div">
         <button className="built_button">
