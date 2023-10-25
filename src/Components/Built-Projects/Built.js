@@ -1,13 +1,13 @@
 import React from "react";
 import "./Built.css";
 
-import img1 from "./../../images/thumbnail-project-1-small.webp";
+// import img1 from "./../../images/thumbnail-project-1-small.webp";
 
 export default function Built(props) {
   /// create new component and inside new array with photos 
   return (
     <div className="built_main_div">
-      <img src={img1} className="built-image" />
+      <img src={props.img} className="built-image" />
 
       <h2>{props.title}</h2>
       <div className="skills_h4">
