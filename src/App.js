@@ -7,8 +7,8 @@ import Projects from "./Components/Projects/Projects.js";
 import Built from "./Components/Built-Projects/Built";
 import Footer from "./Components/Footer/Footer";
 
-import img1 from './images/thumbnail-project-1-small.webp'
-import img2 from './images/thumbnail-project-2-small.webp'
+import img1 from './images/essentials.png'
+import img2 from './images/tic-tac-toe.png'
 import img3 from './images/thumbnail-project-3-small.webp'
 
 
@@ -21,16 +21,16 @@ function App() {
       <Skills />
       <Projects />
       <Built
-        title={"DESIGN PORTFOLIO"}
-        description={"HTML CSS"}
-        link={"https://m0h1k4.github.io/My-portfolio/"}
+        title={"React Essentials"}
+        description={"React.js"}
+        link={"https://m0h1k4.github.io/React-Essentials/"}
         img={img1}
         
       />
       <Built
-            title={ "E-LEARNING LANDING PAGE"}
-            description={"HTML CSS JAVASCRIPT"}
-            link={"https://m0h1k4.github.io/Tic-tac-toe/"}
+            title={ "Tic-tac-toe"}
+            description={"React + vite"}
+            link={"https://m0h1k4.github.io/React-vite--tic-tac-toe/"}
             img={img2}
       />
       <Built
