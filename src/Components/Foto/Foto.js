@@ -2,7 +2,7 @@ import React from "react";
 import icon1 from "../../images/icon-github.svg";
 import icon2 from "../../images/icon-linkedin.svg";
 import icon3 from "../../images/icon-twitter.svg";
-import chemi from "../../images/image-profile-mobile.webp"
+import chemi from "../../images/img.jpg"
 
 import './Foto.css'
 
